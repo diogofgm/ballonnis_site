@@ -1,0 +1,82 @@
+---
+layout: default
+title: "Ballonni's Pizzaria"
+description: "Pizza artesanal com ingredientes selecionados e uma história de sabor único."
+---
+
+<main>
+  <section class="section" id="sobre">
+    <div class="container">
+      <h2>Sobre a Ballonni's</h2>
+      <p>
+        A Ballonni's é uma pizzaria artesanal dedicada a criar experiências gastronômicas autênticas. Nossa paixão é por massas frescas, molhos feitos com tomates maduros e coberturas cuidadosamente escolhidas.
+      </p>
+      <p>
+        Aqui você encontra um ambiente acolhedor, atendimento próximo e um cardápio pensado para quem valoriza o verdadeiro sabor de uma pizza feita com carinho.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="cards">
+        {% for pizza in site.data.menu %}
+        <article class="card">
+          <h3>{{ pizza.name }}</h3>
+          <p>{{ pizza.description }}</p>
+          {% if pizza.price %}<p class="price">{{ pizza.price }}</p>{% endif %}
+        </article>
+        {% endfor %}
+      </div>
+      <p class="menu-note">
+        Todas as pizzas podem ser adaptadas com opções sem glúten e sem lactose mediante pedido.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="artesanal">
+    <div class="container">
+      <h2>Nosso Método Artesanal</h2>
+      <p>
+        Na Ballonni's, cada pizza é preparada à mão, seguindo processos lentos de fermentação e seleção de ingredientes frescos. A massa é modelada manualmente e assada em forno que garante bordas crocantes e miolo macio.
+      </p>
+      <p>
+        Nosso compromisso é com o artesanal: molhos preparados diariamente, coberturas feitas na hora e atenção aos detalhes em cada etapa da produção. Isso resulta em pizzas autênticas, com aroma e sabor caseiro.
+      </p>
+      <ul>
+        <li>Forno de pedra e calor uniforme</li>
+        <li>Massa fermentada por tempo certo</li>
+        <li>Ingredientes frescos e regionais sempre que possível</li>
+        <li>Montagem cuidadosa e atenção ao acabamento</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Venha nos visitar ou faça seu pedido pelo telefone e redes sociais.</p>
+      <div class="contact-grid">
+        <div>
+          <strong>Endereço</strong>
+          <p>Rua do Sabor, 123<br />Bairro das Pizzas<br />Cidade, Estado</p>
+        </div>
+        <div>
+          <strong>Telefone</strong>
+          <p>(11) 99999-9999</p>
+        </div>
+        <div>
+          <strong>Horário</strong>
+          <p>Terça a Domingo: 18h - 23h<br />Segunda: fechado</p>
+        </div>
+        <div>
+          <strong>Redes</strong>
+          <p>
+            Instagram: <a href="#">@ballonnis</a><br />WhatsApp: <a href="#">Clique aqui</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
