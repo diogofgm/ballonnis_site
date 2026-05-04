@@ -200,3 +200,79 @@ footer {
     font-size: 1rem;
   }
 }
+
+/* Construction page styles */
+.construction {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--surface);
+}
+
+.construction-content {
+  max-width: 600px;
+}
+
+.construction-logo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 2rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 4px solid var(--accent);
+  object-fit: cover;
+  object-position: top center;
+}
+
+.construction h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-dark);
+}
+
+.construction h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.construction p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.construction-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  transition: background 0.3s ease;
+}
+
+.construction-link:hover {
+  background: var(--accent-dark);
+}
+
+.construction-contact {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--surface-alt);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.construction-contact h3 {
+  margin-top: 0;
+  color: var(--accent-dark);
+}
+
+.construction-contact p {
+  margin: 0.5rem 0;
+}

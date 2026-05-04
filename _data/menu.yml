@@ -1,23 +1,23 @@
 - name: "Fiambre e Manjericão"
   description: "Fiambre e manjericão sobre base de molho de tomate e mozzarella."
-  price: "10€"
+  price: "€10"
 
 - name: "Cogumelos, Cebola Roxa e Bacon"
   description: "Cogumelos, cebola roxa, bacon, pimenta preta e manjericão."
-  price: "12€"
+  price: "€12"
 
 - name: "Pepperoni, Piri-Piri e Manjericão"
   description: "Pepperoni picante, piri-piri e manjericão sobre massa artesanal."
-  price: "11€"
+  price: "€11"
 
 - name: "Cogumelos, Rúcula e Grana Padano"
   description: "Cogumelos, rúcula, grana padano, azeite aromatizado e manjericão."
-  price: "12€"
+  price: "€12"
 
 - name: "Cebola Roxa, Bacon e Pepperoni"
   description: "Cebola roxa, bacon, pepperoni e manjericão para um sabor intenso."
-  price: "12€"
+  price: "€12"
 
 - name: "Especial Pão de Alho"
   description: "Forma de pizza com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
-  price: "9€"
+  price: "€9"
