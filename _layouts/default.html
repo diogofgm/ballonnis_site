@@ -11,7 +11,7 @@
     {% assign t = site.data.ui[page.lang] %}
     
     <nav class="navbar">
-        <div class="logo">Ballonni's</div>
+        <div class="logo"><img src="/assets/images/ballonnis-logo.jpg" alt="Ballonni's Pizza"/></div>
         <div class="nav-links">
             <a href="{{ page.lang == 'pt' | iif: '/', '/en/' }}#menu">{{ t.menu }}</a>
             <a href="{{ page.lang == 'pt' | iif: '/workshops', '/en/workshops' }}">{{ t.workshops }}</a>
