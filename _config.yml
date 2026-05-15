@@ -1,6 +1,6 @@
 title: Ballonni's Pizza
 description: Pizzas artesanais, workshops e eventos em Portugal.
 url: "https://ballonnis.com"
-baseurl: "https://ballonnis.com"
+baseurl: ""
 theme: minima
 exclude: [README.md, Gemfile, Gemfile.lock]
