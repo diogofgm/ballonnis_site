@@ -37,6 +37,8 @@ h1, h2, h3, .logo {
 
 .logo { font-size: 2rem; font-style: italic; }
 
+.logo img { max-width: 150px; max-height: 50px; }
+
 .nav-links a, .lang-switch a {
     color: var(--text-main);
     text-decoration: none;
