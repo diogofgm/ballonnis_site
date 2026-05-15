@@ -1,8 +1,6 @@
-title: "Ballonni's"
-description: "Ballonni's Pizzas Artesanais"
-baseurl: "https://ballonnis.com"
+title: Ballonni's Pizza
+description: Pizzas artesanais, workshops e eventos em Portugal.
 url: "https://ballonnis.com"
-theme: null
-markdown: kramdown
-kramdown:
-  input: GFM
+baseurl: "https://ballonnis.com"
+theme: minima
+exclude: [README.md, Gemfile, Gemfile.lock]

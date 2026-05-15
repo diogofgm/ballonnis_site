@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Início
-lang: pt
+title: Home
+lang: en
 ---
 {% assign t = site.data.ui[page.lang] %}
 
 <section class="hero">
     <div>
         <h1>Ballonni's</h1>
-        <p>WORKSHOPS • EVENTOS • TAKE AWAY</p>
+        <p>WORKSHOPS • EVENTS • TAKE AWAY</p>
     </div>
 </section>
 
 <section id="menu" class="menu-section">
-    <h2 class="menu-title">MENU<br><span style="font-size: 1rem; color: var(--text-muted);">PIZZAS MÉDIO</span></h2>
+    <h2 class="menu-title">MENU<br><span style="font-size: 1rem; color: var(--text-muted);">MEDIUM PIZZAS</span></h2>
 
     {% for pizza in site.data.menu.pizzas %}
     <div class="menu-item">
@@ -25,10 +25,10 @@ lang: pt
             <div class="menu-price">{{ pizza.price }}</div>
         </div>
         
-        <div class="menu-desc">{{ pizza.desc_pt }}</div>
+        <div class="menu-desc">{{ pizza.desc_en }}</div>
         
-        {% if pizza.note_pt %}
-            <div style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px;">🌶️ {{ pizza.note_pt }}</div>
+        {% if pizza.note_en %}
+            <div style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px;">🌶️ {{ pizza.note_en }}</div>
         {% endif %}
 
         <div class="badges">
@@ -54,6 +54,6 @@ lang: pt
             <div class="menu-name">{{ site.data.menu.garlic_bread.name }}</div>
             <div class="menu-price">{{ site.data.menu.garlic_bread.price }}</div>
         </div>
-        <div class="menu-desc">{{ site.data.menu.garlic_bread.desc_pt }}</div>
+        <div class="menu-desc">{{ site.data.menu.garlic_bread.desc_en }}</div>
     </div>
 </section>
