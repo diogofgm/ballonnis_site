@@ -1,6 +1,21 @@
+# Site settings
+
 title: Ballonni's Pizza
 description: Pizzas artesanais, workshops e eventos em Portugal.
 url: "https://ballonnis.com"
 baseurl: ""
-theme: minima
+
+# Social media
+
+twitter: "https://twitter.com/ballonnis"
+facebook: "https://www.facebook.com/ballonnis"
+instagram: "https://www.instagram.com/ballonnis/"
+
+# Contacts
+
+phone: "+351 925 410 763"
+email: "geral@ballonnis.com"
+
+
+
 exclude: [README.md, Gemfile, Gemfile.lock]
