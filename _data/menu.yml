@@ -1,4 +1,4 @@
-pizzas:
+menu:
   - id: 1
     name: "La Classica"
     desc_pt: "fiambre, manjericão fresco"
@@ -37,8 +37,8 @@ pizzas:
     spice: 0
     allergens: ["Lacticínios", "Glúten"]
 
-garlic_bread:
-  name: "Especial Pão de Alho"
-  desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
-  desc_en: "To share with infused olive oil, crushed garlic, cheese, bacon and basil."
-  price: "€8,00"
+  - id: 5
+    name: "Especial Pão de Alho"
+    desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
+    desc_en: "To share with infused olive oil, crushed garlic, cheese, bacon and basil."
+    price: "€8,00"
