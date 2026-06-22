@@ -17,5 +17,10 @@ phone: "+351 925 410 763"
 email: "geral@ballonnis.com"
 
 
+# Build settings
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
