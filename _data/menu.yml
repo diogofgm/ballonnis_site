@@ -6,6 +6,7 @@
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
+  image: pizza-classica.jpg
 
 - id: 2
   name: "Rustica"
@@ -15,6 +16,7 @@
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
+  image: pizza-rustica.jpg
 
 - id: 3
   name: "Diavola"
@@ -32,20 +34,27 @@
   desc_pt: "cogumelos, rúcula, grana padano, azeite aromatizado e manjericão"
   ingredients: "mushrooms, arugula, grana padano, infused olive oil and basil"
   price: "€12,00"
-  vegetarian: false
-  spice: 0
-  allergens: ["Lacticínios", "Glúten"]
-
-- id: 5
-  name: "Americana"
-  ingredients: "onion, bacon, pepperoni and basil"
-  price: "€12,00"
   vegetarian: true
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
+  image: pizza-verde-nobile.jpg
+
+- id: 5
+  name: "Americana"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "onion, bacon, pepperoni and basil"
+  price: "€12,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
 
 - id: 6
   name: "Especial Pão de Alho"
   desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
   ingredients: "infused olive oil, crushed garlic, cheese, bacon and basil"
   price: "€8,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
