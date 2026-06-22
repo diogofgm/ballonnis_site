@@ -1,7 +1,7 @@
 - id: 1
   name: "La Classica"
   desc_pt: "fiambre, manjericão fresco"
-  desc_en: "ham, fresh basil"
+  ingredients: "ham, fresh basil"
   price: "€10,00"
   vegetarian: false
   spice: 0
@@ -10,7 +10,7 @@
 - id: 2
   name: "Rustica"
   desc_pt: "cogumelos, cebola roxa, bacon, pimenta preta e manjericão"
-  desc_en: "mushrooms, red onion, bacon, black pepper and basil"
+  ingredients: "mushrooms, red onion, bacon, black pepper and basil"
   price: "€13,50"
   vegetarian: false
   spice: 0
@@ -19,7 +19,7 @@
 - id: 3
   name: "Diavola"
   desc_pt: "pepperoni, piri-piri, manjericão e mel picante"
-  desc_en: "pepperoni, piri-piri, basil and hot honey"
+  ingredients: "pepperoni, piri-piri, basil and hot honey"
   price: "€13,00"
   vegetarian: false
   spice: 2
@@ -30,14 +30,22 @@
 - id: 4
   name: "Verde Nobile"
   desc_pt: "cogumelos, rúcula, grana padano, azeite aromatizado e manjericão"
-  desc_en: "mushrooms, arugula, grana padano, infused olive oil and basil"
+  ingredients: "mushrooms, arugula, grana padano, infused olive oil and basil"
+  price: "€12,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+
+- id: 5
+  name: "Americana"
+  ingredients: "onion, bacon, pepperoni and basil"
   price: "€12,00"
   vegetarian: true
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
 
-- id: 5
+- id: 6
   name: "Especial Pão de Alho"
   desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
-  desc_en: "To share with infused olive oil, crushed garlic, cheese, bacon and basil."
+  ingredients: "infused olive oil, crushed garlic, cheese, bacon and basil"
   price: "€8,00"
