@@ -1,2 +1,9 @@
 contacts:
-  - phone: "+351 925 410 763"
+  phone: "+351 925 410 763"
+  email: "info@ballonnis.com"
+
+social_links:
+  - twitter: "https://twitter.com/ballonnis"
+  - facebook: "https://www.facebook.com/ballonnis"
+  - instagram: "https://www.instagram.com/ballonnis/"
+  - linkedin: "https://www.linkedin.com/in/ballonnis/"
