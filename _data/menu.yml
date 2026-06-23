@@ -1,8 +1,20 @@
 - id: 1
+  name: "Marguerita"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "Tomato sauce, Mozzarella and Basil"
+  price: "€10,00"
+  vegetarian: true
+  vegan: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
+  type: "pizza"
+
+- id: 2
   name: "La Classica"
   desc_pt: "fiambre, manjericão fresco"
   ingredients: "ham, fresh basil"
-  price: "€10,00"
+  price: "€10,50"
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
@@ -10,11 +22,11 @@
   image2: pizza-classica.jpg
   type: "pizza"
 
-- id: 2
-  name: "Rustica"
+- id: 3
+  name: "Rustica della casa"
   desc_pt: "cogumelos, cebola roxa, bacon, pimenta preta e manjericão"
   ingredients: "mushrooms, red onion, bacon, black pepper and basil"
-  price: "€13,50"
+  price: "€13,00"
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
@@ -22,11 +34,11 @@
   image: pizza-americana.jpg
   type: "pizza"
 
-- id: 3
-  name: "Diavola"
+- id: 4
+  name: "Diavola al miele"
   desc_pt: "pepperoni, piri-piri, manjericão e mel picante"
   ingredients: "pepperoni, piri-piri, basil and hot honey"
-  price: "€13,00"
+  price: "€12,00"
   vegetarian: false
   spice: 2
   allergens: ["Lacticínios", "Glúten"]
@@ -36,7 +48,7 @@
   image2: pizza-diavola.jpg
   type: "pizza"
 
-- id: 4
+- id: 5
   name: "Verde Nobile"
   desc_pt: "cogumelos, rúcula, grana padano, azeite aromatizado e manjericão"
   ingredients: "mushrooms, arugula, grana padano, infused olive oil and basil"
@@ -47,10 +59,43 @@
   image: pizza-verde-nobile.jpg
   type: "pizza"
 
-- id: 5
-  name: "Americana"
+- id: 6
+  name: "Americana affumicata"
   desc_pt: "cebola, bacon, pepperoni e manjericão"
   ingredients: "onion, bacon, pepperoni and basil"
+  price: "€13,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
+  type: "pizza"
+
+- id: 7
+  name: "Tropicale"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "ham, pineapple and basil"
+  price: "€11,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
+  type: "pizza"
+
+- id: 8
+  name: "Reale Ballonni's"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "pepperoni, bacon, mushrooms, onion, arugula, pecorino and garlic infused olive oil"
+  price: "€14,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
+  type: "pizza"
+
+- id: 9
+  name: "Bosco nero"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "mushroom, onion, olives and basil"
   price: "€12,00"
   vegetarian: false
   spice: 0
@@ -58,11 +103,22 @@
   image: pizza-americana.jpg
   type: "pizza"
 
-- id: 6
+- id: 10
+  name: "Contadina"
+  desc_pt: "cebola, bacon, pepperoni e manjericão"
+  ingredients: "onion, bacon, pepperoni and basil"
+  price: "€11,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten"]
+  image: pizza-americana.jpg
+  type: "pizza"
+
+- id: 0
   name: "Especial Pão de Alho"
   desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
-  ingredients: "infused olive oil, crushed garlic, cheese, bacon and basil"
-  price: "€8,00"
+  ingredients: "garlic infused olive oil, confit garlic, mozzarella, bacon and basil"
+  price: "€9,00"
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
