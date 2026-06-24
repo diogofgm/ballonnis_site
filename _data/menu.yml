@@ -8,7 +8,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 2
   name: "La Classica"
@@ -20,7 +20,7 @@
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
   image2: pizza-classica.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 3
   name: "Rustica della casa"
@@ -32,7 +32,7 @@
   allergens: ["Lacticínios", "Glúten"]
   image2: pizza-rustica.jpg
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 4
   name: "Diavola al miele"
@@ -46,7 +46,7 @@
   note_en: "WITH HOT HONEY"
   image: pizza-americana.jpg
   image2: pizza-diavola.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 5
   name: "Verde Nobile"
@@ -57,7 +57,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-verde-nobile.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 6
   name: "Americana affumicata"
@@ -68,7 +68,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 7
   name: "Tropicale"
@@ -79,7 +79,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 8
   name: "Reale Ballonni's"
@@ -90,7 +90,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza filter-specialty"
 
 - id: 9
   name: "Bosco nero"
@@ -101,7 +101,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 10
   name: "Contadina"
@@ -112,7 +112,7 @@
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
   image: pizza-americana.jpg
-  type: "pizza"
+  type: "filter-pizza"
 
 - id: 0
   name: "Especial Pão de Alho"
@@ -124,4 +124,4 @@
   allergens: ["Lacticínios", "Glúten"]
   image2: garlic-bread.jpg
   image: pizza-americana.jpg
-  type: "starter"
+  type: "filter-starter"
