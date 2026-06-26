@@ -111,7 +111,7 @@
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
-  image: pizza-americana.jpg
+  image: pizza-contadina.jpg
   type: "filter-pizza"
 
 - id: 0
