@@ -122,6 +122,5 @@
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
-  image2: garlic-bread.jpg
-  image: pizza-americana.jpg
+  image: garlic-bread.jpg
   type: "filter-starter"
