@@ -89,7 +89,7 @@
   vegetarian: false
   spice: 0
   allergens: ["Lacticínios", "Glúten"]
-  image: pizza-americana.jpg
+  image: pizza-ballonnis.jpg
   type: "filter-pizza filter-specialty"
 
 - id: 9
