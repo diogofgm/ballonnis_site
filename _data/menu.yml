@@ -114,6 +114,17 @@
   image: pizza-contadina.jpg
   type: "filter-pizza"
 
+- id: 11
+  name: "Dolce Miele"
+  desc_pt: "azeite de alho, mozzarella, brie, presunto, nozes, mel e rucula"
+  ingredients: "garlic infused olive oil, mozzarella, brie, ham, nuts, honey and arugula"
+  price: "€16,00"
+  vegetarian: false
+  spice: 0
+  allergens: ["Lacticínios", "Glúten","Frutos"]
+  image: pizza-contadina.jpg
+  type: "filter-gourmet"
+
 - id: 0
   name: "Especial Pão de Alho"
   desc_pt: "Partilhar com azeite aromatizado, alho esmagado, queijo, bacon e manjericão."
